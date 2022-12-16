@@ -27,6 +27,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Cinzel', serif;
+  background-color: whitesmoke;
 }
 
 /* A elements that don't have a class get default styles */
@@ -47,4 +49,23 @@ button {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-top: 1rem;
+}
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
